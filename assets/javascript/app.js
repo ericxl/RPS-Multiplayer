@@ -180,17 +180,17 @@ $("body").on("click", ".attacks", function () {
 });
 
 // Allow the user to hit Enter key to enter name
-$("#playerName").on("keyup", event => {
+$("#playerName").on("keyup", function(event) {
     if (event.keyCode === 13) {
         addPlayer($("#playerName").val().trim());
     }
 });
 
-$("#button_submit").on("click", () => {
+$("#button_submit").on("click", function(){
     addPlayer($("#playerName").val().trim());
 });
 
-$("#chatMessage").on("keyup", event => {
+$("#chatMessage").on("keyup", function(event) {
     if (event.keyCode === 13) {
         addMessage($("#chatMessage").val().trim());
     }
