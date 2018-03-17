@@ -1,5 +1,5 @@
-# Gif Tastic
+# RPS Multiplayer
 
-[ericxl.github.io/GifTastic](https://ericxl.github.io/GifTastic)
+[ericxl.github.io/RPS-Multiplayer](https://ericxl.github.io/RPS-Multiplayer/)
 
-This is a Gif Tastic Project.
+This is a RPS Multiplayer Project. Must have 2 players to play.
