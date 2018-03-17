@@ -1,0 +1,102 @@
+
+:root {
+    /* Define color scheme */
+    --color-background    : #f0f2f0;
+    --color-light-brown   : #ebd9a3;
+    --color-light-blue    : #78b6ed;
+    --color-dark-blue     : #3773a8;
+    --color-text          : #202020;
+    --color-text-contrast : #f9f6e3;
+    --color-text-highlight: #ff6600;
+}
+
+body {
+    background-image: url('../images/light-veneer.png');
+}
+
+
+.color-chocolate {
+    background-color: chocolate
+}
+
+.color-wheat {
+    background-color: wheat
+}
+
+.color-wheat p {
+    color: green
+}
+
+.color-green {
+    background-color: green
+}
+
+.color-cyan {
+    background-color: cyan
+}
+
+.color-royalblue {
+    background-color: royalblue;
+    color: white
+}
+
+.container {
+    width  : 840px;
+    margin : auto;
+    padding: 2.5% 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear  : both;
+}
+
+
+
+
+
+label {
+    display      : block;
+    margin-top   : 2em;
+    margin-bottom: 1em;
+}
+
+
+
+#errorMessage {
+    margin: 8% 0 4% 0;
+}
+
+#player0 {
+    width: 48%;
+    float: left;
+}
+
+#player1 {
+    width: 48%;
+    float: right;
+}
+
+.stats {
+    margin-bottom: 8%;
+}
+
+.display > div {
+    margin       : auto;
+    margin-bottom: 3%;
+    border       : 1px black solid;
+    padding      : 3%;
+
+    font-size    : 1.2em;
+    text-align   : center;
+}
+
+.display > div:hover {
+    background-color: var(--color-light-blue);
+    color           : var(--color-text-contrast);
+}
+
+
+
+
